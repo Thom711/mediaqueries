@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+.background {
+    background-color: lightcyan;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.logo-box {
+    font-family: 'Nerko One', cursive;
+    font-size: 3.5em;
+    color: darkred;
+    background-color: lightgrey;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 75%;
+    padding: 5px 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navigation-bar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navigation-bar-box {
+    display: inline;
+}
+
+.navigation-bar-box a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    width: 28%;
+}
+
+
+.navigation-bar-box-a:hover {
+    background-color: #4CAF50;
+}
+
+.photo {
+	border: 1px solid #999;
+	background-color: #fcfcfc;
+    padding: 4px;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 90%;
+}
+
+.black-border {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: white;
+    list-style-type: none;
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+@media(min-width: 1024px) {
+    .background {
+        background-color: lightgrey;
+    }
+
+    .container {
+        max-width: 75%;
+    }
+
+    .logo-box {
+        width: 50%;
+    }
+
+    .navigation-bar-box a {
+        float: left;
+        font-size: 1.25em;
+        width: 12%;
+    }
+
+    .black-border {
+        width: 33%;
+        font-size: 1em;
+        line-height: 1;
+    }
+
+    .photo {
+        margin-left: 0px;
+        width: 75%;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .black-border-about {
+        margin-top: 30px;
+    }
+}
+
